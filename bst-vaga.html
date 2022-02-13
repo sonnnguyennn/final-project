@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bộ sưu tập VAGABOND</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="./bst-vaga.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="header" id="myHeader">
+          <div class="logo">
+              <a href="home.html"><img src="4.png"></a>
+          </div>
+              <nav class="box__menu">
+                  <ul class="main__menu">
+                      <li class="drop"><a href="home.html">TRANG CHỦ</a></li>
+                      <li class="drop"><a href="product.html">SẢN PHẨM</a>
+                          <ul class="product__drop">
+                              <li><a href="product-new.html">Hàng mới về</a></li>
+                              <li><a href="bst-vaga.html">Bộ sưu tập VAGABOND</a></li>
+                              <li><a href="#">Ghế văn phòng</a></li>
+                              <li><a href="#">Sofa</a></li>
+                              <li><a href="#">Sản phẩm kệ</a></li>
+                          </ul>
+                      </li>
+                      <li class="drop"><a href="brand.html">THƯƠNG HIỆU</a>
+                          <ul class="brand__drop">
+                              <li><a href="#">Hoàn Mỹ</a></li>
+                              <li><a href="#">DecorHomie</a></li>
+                              </li>
+                          </ul>
+                      </li>
+                      <li class="drop"><a href="service.html">DỊCH VỤ</a>
+                          <ul class="service__drop">
+                              <li><a href="#">Dịch vụ thiết kế và thi công</a></li>
+                              <li><a href="#">Dịch vụ sửa chữa và giao hàng</a></li>
+                          </ul>
+                      </li>
+                      <li class="drop"><a href="#">TIN TỨC</a>
+                      <li class="drop"><a href="#">LIÊN HỆ</a></li>
+                  </ul>
+              </nav>  
+          <div class="icon__control">
+              <div class="iconsearch__ctr">
+                  <div class="search__box">
+                      <div class="icon">
+                        <img src="https://img.icons8.com/fluency-systems-regular/48/000000/search--v1.png"/>
+                      </div>
+                      <input type="text" placeholder="Search here..." />
+                  </div>
+                  <img class="search" src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/000000/external-search-logistic-delivery-kiranshastry-solid-kiranshastry.png"/>
+              </div>
+              <img class="line" src="https://img.icons8.com/material-rounded/50/000000/vertical-line.png"/>
+              <img class="user" src="https://img.icons8.com/ios/50/000000/user--v1.png"/>
+              <img class="line" src="https://img.icons8.com/material-rounded/50/000000/vertical-line.png"/>
+              <div class="shopping__cart__ctr">
+                  <img class="cart" src="https://img.icons8.com/ios/50/000000/bag-back-view.png"/>
+                  <div class="circle">
+                    <span>0</span>
+                  </div>
+              </div>
+          </div>
+        </div>
+        <div class="nav-section">
+            <ul class="breadscrumb">
+                <li class="breadscrumb-item"><a href="home.html">Trang chủ</a></li>
+                <li class="breadscrumb-item"><img src="https://img.icons8.com/fluency-systems-regular/48/000000/line--v1.png"/></li>
+                <li class="breadscrumb-item"><a href="product.html">Sản phẩm</a></li>
+                <li class="breadscrumb-item"><img src="https://img.icons8.com/fluency-systems-regular/48/000000/line--v1.png"/></li>
+                <li class="breadscrumb-item"><a href="bst-vaga.html">Bộ sưu tập VAGABOND</a></li>
+            </ul>
+        </div>
+        <div class="content-container">
+            <div class="product-widget-left">
+                    <div class="widget-child-category">
+                        <div class="category-title">
+                            <p>DANH MỤC</p>
+                        </div>
+                        <div class="category-content">
+                            <ul class="category-wrap">
+                                <li class="widget-item">Hàng mới về</li>
+                                <li class="widget-item">Bộ sưu tập VAGABOND</li>
+                                <li class="widget-item">Ghế văn phòng</li>
+                                <li class="widget-item">Sofa</li>
+                                <li class="widget-item">Sản phẩm kệ</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="widget-child-brandfilter">
+                        <div class="brand-title">
+                            <p>LỌC THƯƠNG HIỆU</p>
+                        </div>
+                        <div class="brand-content">
+                            <div class="brand-wrap">
+                                <form>
+                                <div class="checkbox-out">
+                                    <input type="checkbox" id="brand1">
+                                    <input type="checkbox" id="brand2">
+                                </div>
+                                <div class="label-out">
+                                    <p class="label">Hoàn Mỹ</p>
+                                    <p class="label">DecorHomie</p>
+                                </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="widget-child-colorfilter">
+                        <div class="color-title">
+                            <p>LỌC MÀU SẮC</p>
+                        </div>
+                        <div class="color-content">
+                            <div class="color-wrap">  
+                                <form>
+                                <div class="checkbox-out2">
+                                    <input type="checkbox" id="color1">
+                                    <input type="checkbox" id="color2">
+                                    <input type="checkbox" id="color3">
+                                    <input type="checkbox" id="color4">
+                                    <input type="checkbox" id="color5">
+                                </div>
+                                <div class="color-box">
+                                    <ul class="color-sample">
+                                        <li class="color-1"></li>
+                                        <li class="color-2"></li>
+                                        <li class="color-3"></li>
+                                        <li class="color-4"></li>
+                                        <li class="color-5"></li>
+                                    </ul>
+                                </div>
+                                <div class="label-out2">
+                                    <p class="label">Đỏ</p>
+                                    <p class="label">Cam</p>
+                                    <p class="label">Vàng</p>
+                                    <p class="label">Đen</p>
+                                    <p class="label">Trắng</p>
+                                </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="widget-child-bestsell">
+                        <div class="bestsell-title">
+                            <p>LỰA CHỌN NHIỀU NHẤT</p>
+                        </div>
+                        <div class="bestsell-content">
+                            <div class="product-item">
+                                <div class="img-product">
+                                    <img src="https://demo037050.web30s.vn/datafiles/32944/upload/images/san-pham/sky92-black-1.jpg?t=1612580627" alt=""/>
+                                </div>
+                                <div class="product-inner">
+                                    <div class="product-name">
+                                        <p class="product-title">Ghế ăn - SKY92 - BLACK</p>
+                                    </div>
+                                    <div class="i-price">
+                                        <p>820.000 đ</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-item">
+                                <div class="img-product">
+                                    <img src="https://demo037050.web30s.vn/datafiles/32944/upload/images/san-pham/sky8795-665-1.jpg?t=1612579750" alt=""/>
+                                </div>
+                                <div class="product-inner">
+                                    <div class="product-name">
+                                        <p class="product-title">Ghế ăn - SKY-8795</p>
+                                    </div>
+                                    <div class="i-price">
+                                        <p>820.000 đ</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-item">
+                                <div class="img-product">
+                                    <img src="https://demo037050.web30s.vn/datafiles/32944/upload/images/san-pham/sky-8796-uf-910-1.jpg?t=1612579599" alt=""/>
+                                </div>
+                                <div class="product-inner">
+                                    <div class="product-name">
+                                        <p class="product-title">Ghế ăn - SKY8796 - UF910</p>
+                                    </div>
+                                    <div class="i-price">
+                                        <p>820.000 đ</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-item">
+                                <div class="img-product">
+                                    <img src="https://demo037050.web30s.vn/datafiles/32944/upload/images/san-pham/ktv-mfc-612ev_221sh_4_1.jpg?t=1612262143" alt=""/>
+                                </div>
+                                <div class="product-inner">
+                                    <div class="product-name">
+                                        <p class="product-title">Kệ tivi - KTV-MFC</p>
+                                    </div>
+                                    <div class="i-price">
+                                        <p>820.000 đ</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-item">
+                                <div class="img-product">
+                                    <img src="https://demo037050.web30s.vn/datafiles/32944/upload/images/san-pham/sb3062b001-11.jpg?t=1612259640" alt=""/>
+                                </div>
+                                <div class="product-inner">
+                                    <div class="product-name">
+                                        <p class="product-title">Sofa giường - SB3092</p>
+                                    </div>
+                                    <div class="i-price">
+                                        <p>820.000 đ</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-item">
+                                <div class="img-product">
+                                    <img src="https://demo037050.web30s.vn/datafiles/32944/upload/images/san-pham/alpha-1.jpg?t=1612259448" alt=""/>
+                                </div>
+                                <div class="product-inner">
+                                    <div class="product-name">
+                                        <p class="product-title">Ghế thư giãn - ALPHA-109</p>
+                                    </div>
+                                    <div class="i-price">
+                                        <p>820.000 đ</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-item">
+                                <div class="img-product">
+                                    <img src="https://demo037050.web30s.vn/datafiles/32944/upload/images/san-pham/ban-an-ceramic-ja7224-1.jpg?t=1611739488" alt=""/>
+                                </div>
+                                <div class="product-inner">
+                                    <div class="product-name">
+                                        <p class="product-title">Kệ tivi - KTV-MFC - 612EV</p>
+                                    </div>
+                                    <div class="i-price">
+                                        <p>820.000 đ</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-item">
+                                <div class="img-product">
+                                    <img src="https://demo037050.web30s.vn/datafiles/32944/upload/images/san-pham/dc-1686-1.jpg?t=1611736030" alt=""/>
+                                </div>
+                                <div class="product-inner">
+                                    <div class="product-name">
+                                        <p class="product-title">Ghế ăn - DC-1686</p>
+                                    </div>
+                                    <div class="i-price">
+                                        <p>820.000 đ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="product-content-container">
+                <div class="category__area">
+                    <div class="container" id="product">
+                        <div class="product__list">
+                            <div class="item">
+                                <div class="thumb">
+                                    <img src="https://demo037050.web30s.vn/datafiles/32944/upload/images/san-pham/tu_quan_ao_VEGABOND-1.jpg?t=1611734282" alt="product images">
+                                </div>
+                                <ul class="product__action">
+                                    <li class="icons1"><i class="fas fa-eye"></i></li>
+    
+                                    <li class="icons2"><i class="fas fa-heart"></i></li>
+    
+                                    <li class="icons3"><i class="fas fa-shopping-bag"></i></li>
+                                </ul>
+                                <div class="product__inner">
+                                    <h4>Tủ quần áo VAGABOND</h4>
+                                    <ul class="pro__price">
+                                        <li class="price">3.290.000 đ</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="thumb">
+                                    <img src="https://demo037050.web30s.vn/datafiles/32944/upload/images/san-pham/sofa_batman-1.jpg?t=1611734281" alt="product images">
+                                </div>
+                                <ul class="product__action">
+                                    <li class="icons1"><i class="fas fa-eye"></i></li>
+    
+                                    <li class="icons2"><i class="fas fa-heart"></i></li>
+    
+                                    <li class="icons3"><i class="fas fa-shopping-bag"></i></li>
+                                </ul>
+                                <div class="product__inner">
+                                    <h4>Sofa giường BATMAN</h4>
+                                    <ul class="pro__price">
+                                        <li class="price">1.990.000 đ</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>   
+                    </div>   
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-wrap">
+                <div class="about-us">
+                    <div class="aboutus-title">Về chúng tôi</div>                 
+                    <ul class="aboutus-content">
+                        <li class="aboutus-text">Với kinh nghiệm cung cấp sản phẩm - dịch vụ cho khách hàng nhiều năm, 
+                        chúng tôi tự hào đem đến chất lượng tốt nhất, phục vụ tốt nhất .
+                        </li>
+                        <li class="address">
+                            <p>Địa chỉ:</p>
+                            <p>Tầng 4, 505 Minh Khai, Q. Hai Bà Trưng, HN
+                            </p>
+                        </li>
+                        <li class="contact">
+                            <p>Email:</p>
+                            <p>admin@asbab.vn</p>
+                        </li>
+                        <li class="phone-num">
+                            <p>Phone: +84.1234567890</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="service">
+                    <div class="service-title">Dịch vụ mới nhất</div>                 
+                    <ul class="service-content">
+                        <li class="service-item">Giới thiệu</li>
+                        <li class="service-item">Chính sách đổi trả</li>
+                        <li class="service-item">Báo giá</li>
+                        <li class="service-item">Chi nhánh</li>
+                        <li class="service-item">Tuyển dụng</li>
+                    </ul>
+                </div>
+                <div class="account">
+                    <div class="account-title">Tài khoản</div>                 
+                    <ul class="account-content">
+                        <li class="account-item">Đăng ký</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-lang-bct">
+                <div class="language-copyright">
+                    <div class="language">
+                        <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/joypixels/291/flag-vietnam_1f1fb-1f1f3.png" alt=""/>
+                        <p>VN | EN</p>
+                    </div>
+                    <p class="copyright">Copyright © 2022 Asbab.vn. All rights reserved. </p>
+                </div>
+                <div class="footer-bct">
+                    <img src="./Picture1.png" alt=""/>
+                </div>
+            </div>
+        </div>
+    </div>      
+    <script src="./main.js"></script>
+</body>
+</html>
