@@ -73,9 +73,7 @@ a {
 .search__box input {
     width: 1058px;
     height: 61px;
-    left: 180px;
     padding-left:21px;
-    position: absolute;
     font-size: 22px;
 }
 .search__box input:focus {
@@ -88,22 +86,21 @@ a {
     box-shadow: 0 0 5px 0 rgba(100,100,100,0.4);
     position: absolute;
     right:0;
-    top:0;
-    z-index: 999;
+    top:-173px;
+    z-index: 99;
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    display: none;
-    animation: searchbox 0.3s ease-in-out;
+    justify-content:center;
+    transition: 0.3s ease-in-out;
 }
 .iconsearch__ctr:hover >.search__box {
-    display: flex;
-    animation-name: searchbox;
+    top: 0;
 }
 .icon {
     width: 61px;
     height: 61px;
     background-color: white;
-    right:220px;
-    position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -321,14 +318,6 @@ span {
     to {
         opacity: 0.9;
         top: 65px;
-    }
-}
-@keyframes searchbox {
-    from {
-        top:-173px;
-    }
-    to {
-        top:0;
     }
 }
 
@@ -721,7 +710,7 @@ span {
     position: relative;
 }
 #product {
-    width:106%;
+    width:110%;
     margin: 0 auto;
     padding-left:1px;
 }
@@ -735,6 +724,7 @@ span {
 .product__list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .item {
     width: 277px;
@@ -902,7 +892,7 @@ span {
     height: 60px;
     position: absolute;
     bottom: 60px;
-    left: 165px;
+    right:70px;
 }
 .paging-box{
     width: 100%;

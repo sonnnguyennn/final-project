@@ -375,10 +375,21 @@ span {
 .breadscrumb-item:nth-child(3){
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
+    color: rgb(102,102,102);
+    line-height: 27px;
+    padding:0 5px;
+}
+.breadscrumb-item:nth-child(3):hover{
+    color:rgb(196,59,104);
+}
+.breadscrumb-item:nth-child(5){
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
     line-height: 27px;
     color: rgb(196,59,104);
     padding:0 5px;
 }
+
 
 
 
