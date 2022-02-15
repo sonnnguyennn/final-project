@@ -438,6 +438,9 @@ span {
 .category-wrap li:hover{
     color: rgb(196,59,104);
 }
+.category-wrap li:first-child{
+    color: rgb(196,59,104);
+}
 .widget-child-brandfilter {
     width: 285px;
     height: 145px;
