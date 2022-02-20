@@ -438,7 +438,7 @@ span {
 .category-wrap li:hover{
     color: rgb(196,59,104);
 }
-.category-wrap li:first-child{
+.category-wrap li:nth-child(4){
     color: rgb(196,59,104);
 }
 .widget-child-brandfilter {
@@ -737,7 +737,7 @@ span {
 .product__list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    padding-left:68px;
 }
 .item {
     width: 277px;
@@ -751,7 +751,10 @@ span {
     position: relative;
 }
 .item:hover {
-    box-shadow: 0 0 6px 0 rgba(49, 49, 49, 0.3)
+    box-shadow: 0 0 6px 0 rgba(49, 49, 49, 0.3);
+}
+.item:first-child .thumb {
+    padding-top:65px;
 }
 .product__inner {
     height: 64px;
@@ -864,7 +867,7 @@ span {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    opacity: 0;
+    opacity: 0;                                                                                                             
     right: 22px;
     top: 138px;
     transition: 0.15s ease-in-out;
@@ -966,6 +969,10 @@ span {
 
 
 
+
+
+
+
 .footer {
     height: 458px;
     width: 100%;
@@ -1019,13 +1026,13 @@ span {
     line-height: 24px;
 }
 .service {
-    width: 270px;
+    width: 250px;
     height: 214px;
     background-color: rgb(17,17,17);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 16px;
+    margin: 16px 150px;
 }
 .service-title {
     font-family: 'Roboto', sans-serif;
@@ -1059,7 +1066,7 @@ span {
     background-color: rgb(17,17,17);
     display: flex;
     flex-direction: column;
-    margin: 16px;
+    margin: 16px 0px;
 }
 .account-title {
     font-family: 'Roboto', sans-serif;
