@@ -30,11 +30,6 @@ a {
     position: relative;
     z-index: 9999; 
 }
-.drop:nth-child(2) p{
-    color:rgb(196, 59, 104);
-    font-size: 14px;
-    font-family: 'Roboto', sans-serif;
-}
 .sticky {
 	position: fixed;
     top:0;
@@ -73,9 +68,7 @@ a {
 .search__box input {
     width: 1058px;
     height: 61px;
-    left: 180px;
     padding-left:21px;
-    position: absolute;
     font-size: 22px;
 }
 .search__box input:focus {
@@ -88,22 +81,21 @@ a {
     box-shadow: 0 0 5px 0 rgba(100,100,100,0.4);
     position: absolute;
     right:0;
-    top:0;
-    z-index: 999;
+    top:-173px;
+    z-index: 99;
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    display: none;
-    animation: searchbox 0.3s ease-in-out;
+    justify-content:center;
+    transition: 0.3s ease-in-out;
 }
 .iconsearch__ctr:hover >.search__box {
-    display: flex;
-    animation-name: searchbox;
+    top: 0;
 }
 .icon {
     width: 61px;
     height: 61px;
     background-color: white;
-    right:220px;
-    position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -206,13 +198,12 @@ span {
     top: 50px;
     left:397px;
 }
-.drop li {
-    transition: all 0.2s ease-in-out;
+.product__drop a{
+    transition: 0.1s ease-in-out;
 }
-.drop li:hover {
-    color:rgb(240,101,136);
+.product__drop a:hover {
+    color: rgb(196, 59, 104);
 }
-
 .product__drop {
     background-color: white;
     width: 240px;
@@ -225,18 +216,23 @@ span {
     top: 65px;
     left: 116px;
     display: none;
-    animation: productdrop 0.3s ease-in-out;
+    animation: itemdrop 0.3s ease-in-out;
 }
 .drop:nth-child(2):hover >.product__drop {
     opacity: 1;
     display: flex;
-    animation-name: productdrop;
+    animation-name: itemdrop;
 }
 .product__drop li {
     font-size: 14px;
     margin-left:12px;  
 }
-
+.brand__drop a{
+    transition: 0.1s ease-in-out;
+}
+.brand__drop a:hover {
+    color: rgb(196, 59, 104);
+}
 .brand__drop {
     background-color: white;
     width: 240px;
@@ -249,16 +245,22 @@ span {
     top: 65px;
     left: 242px;
     display: none;
-    animation: branddrop 0.3s ease-in-out;
+    animation: itemdrop 0.3s ease-in-out;
 }
 .drop:nth-child(3):hover >.brand__drop {
     opacity: 1;
     display: flex;
-    animation-name: productdrop;
+    animation-name: itemdrop;
 }
 .brand__drop li {
     font-size: 14px;
     margin-left:12px;
+}
+.service__drop a{
+    transition: 0.1s ease-in-out;
+}
+.service__drop a:hover {
+    color: rgb(196, 59, 104);
 }
 .service__drop {
     background-color: white;
@@ -272,12 +274,12 @@ span {
     top: 65px;
     left: 386px;
     display: none;
-    animation: servicedrop 0.3s ease-in-out;
+    animation: itemdrop 0.3s ease-in-out;
 }
 .drop:nth-child(4):hover >.service__drop {
     opacity: 1;
     display: flex;
-    animation-name: servicedrop;
+    animation-name: itemdrop;
 }
 .service__drop li {
     font-size: 14px;
@@ -293,7 +295,7 @@ span {
 
 
 
-@keyframes productdrop{
+@keyframes itemdrop{
     from {
         opacity: 0;
         top: 78px;
@@ -301,34 +303,6 @@ span {
     to {
         opacity: 0.9;
         top: 65px;
-    }
-}
-@keyframes branddrop{
-    from {
-        opacity: 0;
-        top: 78px;
-    }
-    to {
-        opacity: 0.9;
-        top: 65px;
-    }
-}
-@keyframes servicedrop{
-    from {
-        opacity: 0;
-        top: 78px;
-    }
-    to {
-        opacity: 0.9;
-        top: 65px;
-    }
-}
-@keyframes searchbox {
-    from {
-        top:-173px;
-    }
-    to {
-        top:0;
     }
 }
 

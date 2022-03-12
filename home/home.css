@@ -30,11 +30,6 @@ a {
     position: relative;
     z-index: 9999; 
 }
-.drop:nth-child(2) p{
-    color:rgb(196, 59, 104);
-    font-size: 14px;
-    font-family: 'Roboto', sans-serif;
-}
 .sticky {
 	position: fixed;
     top:0;
@@ -203,13 +198,12 @@ span {
     top: 50px;
     left:397px;
 }
-.drop li {
-    transition: all 0.2s ease-in-out;
+.product__drop a{
+    transition: 0.1s ease-in-out;
 }
-.drop li:hover {
-    color:rgb(240,101,136);
+.product__drop a:hover {
+    color: rgb(196, 59, 104);
 }
-
 .product__drop {
     background-color: white;
     width: 240px;
@@ -233,7 +227,12 @@ span {
     font-size: 14px;
     margin-left:12px;  
 }
-
+.brand__drop a{
+    transition: 0.1s ease-in-out;
+}
+.brand__drop a:hover {
+    color: rgb(196, 59, 104);
+}
 .brand__drop {
     background-color: white;
     width: 240px;
@@ -256,6 +255,12 @@ span {
 .brand__drop li {
     font-size: 14px;
     margin-left:12px;
+}
+.service__drop a{
+    transition: 0.1s ease-in-out;
+}
+.service__drop a:hover {
+    color: rgb(196, 59, 104);
 }
 .service__drop {
     background-color: white;
