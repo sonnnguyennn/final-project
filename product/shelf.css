@@ -421,7 +421,7 @@ span {
     color: rgb(68,68,68);
     cursor: pointer;
 }
-.category-wrap li:hover{
+.category-wrap a:hover{
     color: rgb(196,59,104);
 }
 .category-wrap li:nth-child(5){
