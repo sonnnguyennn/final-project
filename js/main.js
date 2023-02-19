@@ -60,9 +60,9 @@ var cl2 = document.querySelector(".fb__slide");
 var sl = document.querySelectorAll(".slide2")
 
 var counterr = 1;
-var width = sl[0].clientWidth;
-cl2.style.transform = "translateX("+ (counterr* (-width)) + "px)";
-console.log(width)
+var width2 = sl[0].clientWidth;
+cl2.style.transform = "translateX("+ (counterr* (-width2)) + "px)";
+console.log(width2)
 
 setInterval(function() {
    counterr++;
@@ -71,7 +71,7 @@ setInterval(function() {
 
 function autoTransition(counterr) {
    cl2.style.transition = "transform 0.5s ease-in-out";
-   cl2.style.transform = "translateX("+ (counterr* (-width)) + "px)";
+   cl2.style.transform = "translateX("+ (counterr* (-width2)) + "px)";
 }
 
 cl2.addEventListener("transitionend", function() {
@@ -79,11 +79,11 @@ cl2.addEventListener("transitionend", function() {
    if (sl[counterr].id === "first1") {
    cl2.style.transition = "none";
      counterr = sl.length -counterr;
-   cl2.style.transform = "translateX("+ (counterr* (-width)) + "px)";
+   cl2.style.transform = "translateX("+ (counterr* (-width2)) + "px)";
 }
    if (sl[counterr].id === "last1") {
    cl2.style.transition = "none";
      counterr = sl.length - 2;
-   cl2.style.transform = "translateX("+ (counterr* (-width)) + "px)";
+   cl2.style.transform = "translateX("+ (counterr* (-width2)) + "px)";
 }
 })
