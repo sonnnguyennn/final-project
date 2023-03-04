@@ -13,6 +13,10 @@ function signIn (e){
         alert('wrong username!');
     }
     else if (username == data.username && pass == data.password){
-        alert('logged in!')
+        alert('logged in!');
+        window.location.replace("https://sonnnguyennn.github.io/final-project/home/home.html");
+    }
+    else {
+        alert('wrong password!');
     }
 }

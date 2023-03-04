@@ -54,7 +54,7 @@ function signUp (e){
     
     var json = JSON.stringify(user);
     localStorage.setItem(username, json)
-    window.location.replace('');
+    window.location.replace('https://sonnnguyennn.github.io/final-project/authentication/sign-in.html');
 }
 })
 
