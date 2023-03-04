@@ -1,9 +1,15 @@
+
+// let form = document.querySelector('#form');
+// console.log(form)
+// form.addEventListener("submit", signIn);
+
+
 function signIn (e){
     e.preventDefault();
-    console.log("alo");
+    // console.log("alo");
     var email = document.getElementById('email').value;
     var username = document.getElementById('username').value;
-    var password = document.getElementById('password').value;
+    var password = document.getElementById('pass').value;
 
     var user = localStorage.getItem(username);
     var data = JSON.parse(user);
