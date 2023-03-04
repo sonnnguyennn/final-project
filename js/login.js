@@ -47,14 +47,14 @@ window.onload = (()=>{
         console.log(user)
     
         if (user == null){
-            alert('wrong username!');
+            alert('wrong username or password!');
         }
         else if (username == data.username && password == data.password){
             alert('logged in!');
             window.location.replace("https://sonnnguyennn.github.io/final-project/home/home.html");
         }
         else {
-            alert('wrong password!');
+            alert('wrong username or password!');
         }
     }
 })
