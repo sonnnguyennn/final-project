@@ -34,7 +34,7 @@
 
 // }
 window.onload = (()=>{
-    
+
 let form = document.querySelector('#form');
 console.log(form)
 form.addEventListener("submit", signUp);
@@ -58,4 +58,5 @@ function signUp (e){
     window.location.replace('https://sonnnguyennn.github.io/final-project/authentication/sign-in.html');
 }
 })
+
 
