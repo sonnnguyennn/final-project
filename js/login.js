@@ -1,5 +1,5 @@
 function signIn (e){
-    event.preventDefault();
+    e.preventDefault();
     console.log("alo");
     var email = document.getElementById('email').value;
     var username = document.getElementById('username').value;
