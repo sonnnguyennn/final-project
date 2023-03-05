@@ -46,7 +46,7 @@ body {
 form .text-box{
     width: 100%;
     /* background-color: red; */
-    margin: 20px 0;
+    margin: 36px 0;
     border-bottom: 2px solid silver;
     position: relative;
 }
@@ -82,7 +82,7 @@ form .text-box{
 }
 .text-box input:focus ~ label, 
 .text-box input:valid ~ label{
-    top: -4px;
+    top: -6px;
     color:rgb(196,59,104);
 }
 .text-box input:focus ~ span::before, 
