@@ -96,16 +96,16 @@
       // Signed in 
       const user = userCredential.user;
       console.log(user);
-      alert(user.email+" Login successfully!!!");
+      alert(user.email+" Login successfully!");
       window.location.replace("https://sonnnguyennn.github.io/final-project/home/home.html");
-      document.getElementById('logout').style.display = 'block';
+    //   document.getElementById('logout').style.display = 'block';
       // ...
     })
     .catch((error) => {
       const errorCode = error.code;
       const errorMessage = error.message;
       console.log(errorMessage);
-      alert(errorMessage);
+    //   alert(errorMessage);
     });		  		  
 });
     

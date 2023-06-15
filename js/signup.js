@@ -99,7 +99,7 @@
       // Signed in 
       const user = userCredential.user;
       console.log(user);
-      alert("Registration successfully!!");
+      alert("Registration successfully!");
       window.location.replace("https://sonnnguyennn.github.io/final-project/authentication/sign-in.html");
       // ...
     })
